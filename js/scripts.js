@@ -83,9 +83,10 @@ function processWord() {
         "universe",
         "uranium",
       ];
-      ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"].indexOf(
-        word.charAt(0)
-      ) !== -1;
+      const startsWVowel =
+        ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"].indexOf(
+          word.charAt(0)
+        ) !== -1;
 
       return startsWVowel
         ? vWordsWithA.indexOf(word) !== -1
